@@ -99,8 +99,8 @@ const PORT = process.env.PORT || 5000;
 // Start server
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
-  console.log('Important steps:');
-  console.log('1. Make sure Ollama is installed: https://ollama.ai/download');
-  console.log('2. Run "ollama serve" in a separate terminal');
-  console.log('3. Run "ollama pull llama2" to download the model');
+  // console.log('Important steps:');
+  // console.log('1. Make sure Ollama is installed: https://ollama.ai/download');
+  // console.log('2. Run "ollama serve" in a separate terminal');
+  // console.log('3. Run "ollama pull llama2" to download the model');
 });
